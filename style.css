@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+}
+.nike-logo img {
+    width: 225px;
+    height: 31px;
+}
+.nav-links {
+    list-style: none;
+    display: inline;
+    margin-right: 37px;
+}
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3C3C3C;
+    padding: 10px 20px;
+}
+.nav-links:hover a{
+    background-color: azure;
+    transition: .5s;
+    
+}
+/* Navbar style end */
+
+/* Bannar style */
+.nike-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+}
+.half-width {
+    flex: 1;
+}
+.nike-banner-img img {
+    width: 407px;
+    height: 407px;
+}
+.banner-title {
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 0;
+    font-family: "Bebas Neue", cursive;
+}
+.banner-title span {
+    color: #fa804c;
+}
+.banner-para {
+    font-size: 16px;
+    width: 360px;
+    color: #3e3e3e;
+    padding: 20px;
+}
+#buy-button {
+    text-decoration: none;
+    background-color: #3d4ff3;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 25px;
+}
+.fa-shopping-cart {
+    padding-right: 7px;
+    font-size: 15px;
+}
+/* banner styles end */
+
+/* casual shoe styling */
+
+.casual-shoes {
+    padding: 150px 135px;
+}
+.shoes-details {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: space-between;
+}
+.shoe-type {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #363958;
+}
+.shoe img {
+    width: 311px;
+    height: 311px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 40px darkgrey;
+}
+
+.shoe-name {
+    font-size: 24px;
+    color: #363958;
+}
+.shoe-para {
+    font-size: 16px;
+    color: #3e3e3e;
+    width: 299px;
+    height: 52px;
+    margin: 5px;
+}
+.shoe-pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+}
+.shoe-pricing .price {
+    font-size: 36px;
+    color: #fa804c;
+    font-weight: bold;
+}
+#price-button {
+    text-decoration: none;
+    background-color: #3d4ff3;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+/* Formal shoe */
+
+.formal-shoes {
+    padding: 0 135px;
+}
+
+/* company policy sytle */
+
+.company-policy{
+    display: flex;
+    padding: 150px 135px;
+}
+.rule {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rule img {
+    width: 78px;
+    height: 82px;
+}
+.rule h4 {
+    font-size: 24px;
+    color: #363958;
+}
+.rule p {
+    width: 276px;
+    height: 52px;
+    color: #3E3E3E;
+}
+.delivery-photo img{
+    width: 600px;
+    height: 355px;
+}
