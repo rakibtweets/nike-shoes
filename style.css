@@ -249,4 +249,11 @@ body {
     }
 
     /* casual shoes style end */
+
+    .formal-shoes{
+        padding: 0 35px;
+    }
+    .nike-shoes{
+        flex: 1;
+    }
 }
