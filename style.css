@@ -18,6 +18,9 @@ body {
     width: 225px;
     height: 31px;
 }
+.menu-ber {
+    display: none;
+}
 .nav-links {
     list-style: none;
     display: inline;
@@ -26,13 +29,12 @@ body {
 .nav-links a {
     text-decoration: none;
     font-size: 16px;
-    color: #3C3C3C;
+    color: #3c3c3c;
     padding: 10px 20px;
 }
-.nav-links:hover a{
+.nav-links:hover a {
     background-color: azure;
-    transition: .5s;
-    
+    transition: 0.5s;
 }
 /* Navbar style end */
 
@@ -63,7 +65,6 @@ body {
     font-size: 16px;
     width: 360px;
     color: #3e3e3e;
-    padding: 20px;
 }
 #buy-button {
     text-decoration: none;
@@ -93,6 +94,11 @@ body {
     text-transform: uppercase;
     font-size: 40px;
     color: #363958;
+}
+.shoe {
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px 10px;
 }
 .shoe img {
     width: 311px;
@@ -139,7 +145,7 @@ body {
 
 /* company policy sytle */
 
-.company-policy{
+.company-policy {
     display: flex;
     padding: 150px 135px;
 }
@@ -159,9 +165,88 @@ body {
 .rule p {
     width: 276px;
     height: 52px;
-    color: #3E3E3E;
+    color: #3e3e3e;
 }
-.delivery-photo img{
+.delivery-photo img {
     width: 600px;
     height: 355px;
+}
+/* Delivery section style end */
+
+/* mdeia quries for mobile devices */
+
+@media only screen and (max-width: 688px) {
+    /* Navbar mobile device */
+    .navbar {
+        width: 100%;
+        background-color: rgb(214, 223, 231);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 35px;
+    }
+    .nike-logo img {
+        width: 192px;
+        height: 26px;
+    }
+
+    .nav-items a {
+        text-decoration: none;
+    }
+    .menu-ber {
+        display: block;
+        font-size: 30px;
+    }
+    .nav-links {
+        display: none;
+    }
+    /* navbar for mobile device complete */
+
+    /* Nike banner for Mobile devices */
+
+    .nike-banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        padding: 0 35px;
+    }
+    .nike-banner-img img {
+        width: 315px;
+        height: 290px;
+    }
+    .banner-title {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    .banner-para {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    #buy-button {
+        text-decoration: none;
+        background-color: #3d4ff3;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 25px;
+    }
+    .half-width {
+        flex: 1;
+    }
+
+    /* Banner part end */
+
+    /* Causual shoe style for mobile devices */
+
+    .casual-shoes {
+        padding: 70px 35px;
+    }
+    .shoe-type {
+        font-size: 36px;
+    }
+    .shoes-details {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    /* casual shoes style end */
 }
