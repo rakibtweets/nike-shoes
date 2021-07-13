@@ -122,6 +122,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 311px;
     margin: 0 0;
 }
 .shoe-pricing .price {
@@ -178,8 +179,7 @@ body {
 @media only screen and (max-width: 688px) {
     /* Navbar mobile device */
     .navbar {
-        width: 100%;
-        background-color: rgb(214, 223, 231);
+       
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -239,21 +239,56 @@ body {
 
     .casual-shoes {
         padding: 70px 35px;
+        
     }
     .shoe-type {
         font-size: 36px;
+        text-align: center;
     }
     .shoes-details {
         flex-direction: column;
         align-content: center;
+        align-items: center;
     }
 
     /* casual shoes style end */
 
-    .formal-shoes{
+    .formal-shoes {
         padding: 0 35px;
+        
     }
-    .nike-shoes{
+    .nike-shoes {
         flex: 1;
     }
+
+    /* Company policy styles */
+
+    .company-policy {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 120px;
+    }
+    .delivery-photo img {
+        width: 292px;
+        height: 173px;
+    }
+    .policy-rules {
+        padding-top: 48px;
+    }
+    .rule {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .rule img {
+        width: 78px;
+        height: 82px;
+    }
+    .rule h4, .para{
+        text-align: center;
+    }
+
+    /* Resonsive for mobile device end */
+
+
 }
